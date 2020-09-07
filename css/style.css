@@ -158,32 +158,11 @@ a {
   color: inherit;
 }
 
-img {
-  border-radius: 9px;
-}
-
-footer img {
-  width: 100px;
-  height: 130px;
-}
 
 /** Generics **/
 
 .width-100 {
   width: 100%;
-}
-
-.w-95 {
-  width: 95%;
-}
-
-.fnt-40 {
-  font-size: 40px;
-}
-
-.fnt-20 {
-  font-size: 20px;
-  font-weight: 400;
 }
 
 .color-white {
@@ -192,9 +171,6 @@ footer img {
 
 .center-items {
   margin: 0 auto;
-}
-.text-align {
-  text-align: center;
 }
 
 .dflex {
@@ -205,7 +181,7 @@ footer img {
   align-items: flex-start;
 }
 
-.dflex-justify {
+.dflex-justify-space {
   display: flex;
   justify-content: space-between;
 }
@@ -214,5 +190,92 @@ footer img {
   font-weight: bold;
 }
 
+.font-small {
+  font-size: 13px;
+  color: rgb(177, 174, 174);
+}
+
+.dflex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 /* header */
 
+.small-logo {
+  width: 106px;
+  height: 48px; 
+  background-color: red;
+}
+
+.small-logo img {
+  display: block;
+  width: 62%;
+  padding-top: 16px;
+  margin:  0 auto;
+} 
+
+.fa-search {
+  border-right: 1px solid grey;
+  padding: 15px 14px 10px 15px;
+  border-left: 1px solid grey;
+}
+
+.fa-bars {
+  padding: 15px 14px 10px 15px;
+}
+
+.second-nav-mobile {
+  height: 50px;
+  background-color: yellow;
+  font-size: 12px;
+}
+
+.second-nav-mobile p {
+  height: 25%;
+  margin-top: 20px;
+  padding-left: 5px;
+}
+
+.article-cards-small {
+  width: 95%;
+  margin: 0 auto 8px ;
+
+}
+
+.main-pic {
+  background: linear-gradient( 360deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.115) 100% ), url(/Images/1.png); 
+  height: 28vh;
+  color: white;
+  background-size: cover;
+}
+
+.main-pic2 {
+  background: linear-gradient( 360deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.115) 100% ), url(/Images/2.jpg); 
+  height: 28vh;
+  color: white;
+  background-size: cover;
+}
+
+.article-cards-small h4 {
+  font-weight: 400;
+}
+
+.article-cards-small  h2 {
+  font-size: 17px;
+  width: 95%;
+  line-height: 25px;
+}
+
+.article-cards-small-items {
+ padding: 7px 0 7px 3%;
+}
+
+.font-small-fa {
+  font-size: 17px;
+  padding-left: 12px;
+}
+
+.main-pic2-h2 {
+  padding: 100px 0 0 3%;
+}

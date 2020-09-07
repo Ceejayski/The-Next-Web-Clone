@@ -123,8 +123,8 @@ section {
 }
 
 body {
-  line-height: 1;
-  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.25;
+  font-family: Helvetica, sans-serif;
   background-color: #f5f5f5;
 }
 
@@ -146,6 +146,11 @@ table {
   border-spacing: 0;
 }
 
+h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
 /* base */
 
 * {
@@ -157,7 +162,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
 
 /** Generics **/
 
@@ -195,24 +199,39 @@ a {
   color: rgb(177, 174, 174);
 }
 
+.font-small-2x {
+  font-size: 12px;
+  color: rgb(177, 174, 174);
+}
+
+.font-small-3x {
+  font-size: 11px;
+  color: rgb(177, 174, 174);
+}
+
 .dflex-column {
   display: flex;
   flex-direction: column;
 }
 
+.common-color {
+  color: #f42;
+}
+
 /* header */
 
 .small-logo {
+  background-color: #f42;
+  background: linear-gradient(to bottom right ,#c09, #f42 85%);
   width: 106px;
-  height: 48px; 
-  background-color: red;
+  height: 48px;
 }
 
 .small-logo img {
   display: block;
   width: 62%;
   padding-top: 16px;
-  margin:  0 auto;
+  margin: 0 auto;
 } 
 
 .fa-search {
@@ -227,7 +246,7 @@ a {
 
 .second-nav-mobile {
   height: 50px;
-  background-color: yellow;
+  background-color: #fd3;
   font-size: 12px;
 }
 
@@ -268,14 +287,14 @@ a {
   font-weight: 400;
 }
 
-.article-cards-small  h2 {
+.article-cards-small h2 {
   font-size: 17px;
   width: 95%;
   line-height: 25px;
 }
 
 .article-cards-small-items {
- padding: 7px 0 7px 3%;
+  padding: 7px 0 7px 3%;
 }
 
 .font-small-fa {
@@ -289,4 +308,89 @@ a {
 
 .main-pic3-h2 {
   padding: 73px 0 0 3%;
+}
+
+.latest-news-small {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.latest-news-aritcle-row {
+  height: 75px;
+  width: 100%;
+  margin: 20px 0;
+  line-height: 20px;
+}
+
+.latest-news-aritcle-row img {
+  height: 100%;
+  width: 75px;
+  object-fit: cover;
+  object-position: 50%;
+  margin-right: 13px;
+}
+
+.latest-news-small h1 {
+  font-size: 21px;
+}
+
+.latest-news-aritcle-row h2 {
+  font-size: 14px;
+}
+
+.latest-funding-round-small {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.funding-section-article-cards {
+  position: relative;
+}
+
+.funding-section-article-cards img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10.6px;
+  height: 60px;
+  width: 60px;
+  z-index: 2;
+}
+
+.funding-section-article-card-header {
+  background-color: #f42;
+  padding: 10.6px 16px 10.6px 84px;
+}
+
+.funding-section-article-card-body {
+  background: rgba(255,68,34,.08);
+  padding: 10.6px 16px 10.6px 84px;
+}
+
+.funding-section-article-card-footer {
+  padding: 16px 16px 0 16px;
+  font-size: 13px;
+  color: #555;
+  background-color: #fffaf8;
+  border-bottom: 1px solid #ffccc3;
+}
+
+.funding-section-article-card-footer i {
+  color: black;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.funding-section-article-card-footer p {
+  padding-bottom: 16px;
+}
+
+.funding-section-article-card-footer2 {
+  padding: 10px 16px 16px;
+  background-color: #fffaf8;
+}
+
+.funding-section-article-card-footer2 small {
+  line-height: 21px;
+  font-size: 12px;
 }

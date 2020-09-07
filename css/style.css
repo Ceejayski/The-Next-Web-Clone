@@ -395,3 +395,44 @@ a {
   line-height: 21px;
   font-size: 12px;
 }
+
+.footer-icons {
+  padding-top: 30px;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-li {
+  padding: 10px 10px 10px 10px;
+  margin-right: 8px;
+  color: white;
+  border: solid 1px rgb(51,51,51);
+  border-radius: 20px;
+  background-color: rgb(51,51,51);
+}
+
+.footer {
+  background-color: rgb(27, 26, 26);
+}
+
+.last-icon {
+  margin-top: -26px;
+}
+
+.footer-links {
+  font-size: 12px;
+  margin-right: 8px;
+  color: rgb(126, 121, 121);
+}
+
+.footer-legal {
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+}
+
+.footer-links2 {
+  justify-content: center;
+  font-size: 17px;
+}

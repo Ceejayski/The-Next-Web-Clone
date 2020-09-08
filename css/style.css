@@ -255,10 +255,47 @@ header {
 
 /* header */
 
+header ul {
+  list-style: none;
+}
+
+.navbar-xl {
+  display: none;
+}
+
+.navbar-xl-top {
+  background-color: #131313;
+  color: #fff;
+  height: 32px;
+}
+
+.navbar-xl-bottom {
+  height: 48px;
+}
+
+.navlist-list1 {
+  margin-left: 20px;
+}
+
+.navbar-xl-top li {
+  margin-right: 12px;
+  font-size: 13px;
+}
+
+.navlist2  li {
+  font-size: 14px;
+  padding-right: 20px;
+  color: #afafaf;
+}
+
 .small-logo {
   background-color: #f42;
   background: linear-gradient(to bottom right ,#c09, #f42 85%);
   width: 106px;
+  height: 48px;
+}
+
+.nav-buttons {
   height: 48px;
 }
 
@@ -270,9 +307,7 @@ header {
 } 
 
 .fa-search {
-  border-right: 1px solid grey;
   padding: 15px 14px 10px 15px;
-  border-left: 1px solid grey;
   color: #ccc;
 }
 
@@ -292,12 +327,22 @@ header {
 
 .second-nav-mobile p {
   height: 25%;
-  margin-top: 20px;
+  width: 380px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px auto 0;
   padding-left: 5px;
 }
 
+/** main **/
+
 main {
   padding-top: 98px;
+}
+
+.main-pic-h4 {
+  padding-left: 3%;
 }
 
 .article-cards-small {
@@ -614,4 +659,42 @@ main {
   margin: 0 auto;
   font-size: 13px;
   line-height: 19px;
+}
+
+@media only screen and (min-height: 812px) and (min-width: 375px) {
+  .main-pic-h4 {
+    padding: 85px 0 0 3%;
+  }
+
+  .article-cards-small-items {
+    padding: 7px 0 0 3%;
+  }
+
+  .main-pic2-h2 {
+    padding: 160px 0 0 3%;
+  }
+  
+  .main-pic3-h2 {
+    padding: 145px 0 0 3%;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .navbar-xl {
+    display: block;
+    width: 85%;
+  }
+
+  .nav-buttons {
+    display: none;
+  }
+
+  .small-logo {
+    height: 80px;
+    width: 15%;
+  }
+
+  .small-logo img {
+    padding-top: 32px;
+  }
 }

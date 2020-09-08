@@ -784,5 +784,11 @@ main {
     margin-bottom: 200px;
   }
 
-
+  .social-icons  {
+    margin: 0 13px;
+  }
+  
+  .footer-section-1-div1 {
+    width: 400px;
+  }
 }

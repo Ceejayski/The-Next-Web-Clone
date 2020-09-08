@@ -165,6 +165,12 @@ a {
 
 /** Generics **/
 
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
 .width-100 {
   width: 100%;
 }
@@ -264,6 +270,10 @@ a {
   padding: 15px 14px 10px 15px;
 }
 
+.first-nav-mobile {
+  background-color: #fff;
+}
+
 .second-nav-mobile {
   height: 50px;
   background-color: #fd3;
@@ -274,6 +284,10 @@ a {
   height: 25%;
   margin-top: 20px;
   padding-left: 5px;
+}
+
+main {
+  padding-top: 98px;
 }
 
 .article-cards-small {

@@ -330,8 +330,7 @@ header ul,
 }
 
 .small-logo {
-  background-color: #f42;
-  background: linear-gradient(to bottom right ,#c09, #f42 85%);
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 106px;
   height: 48px;
 }
@@ -349,7 +348,7 @@ header ul,
   width: 62%;
   padding-top: 16px;
   margin: 0 auto;
-} 
+}
 
 .fa-search {
   padding: 15px 14px 10px 15px;
@@ -401,25 +400,24 @@ main {
 .article-cards-small {
   width: 95%;
   margin: 0 auto 8px;
-
 }
 
 .main-pic {
-  background: linear-gradient( 360deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.115) 100% ), url(/images/1.png);
+  background: linear-gradient(360deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.115) 100%), url(/images/1.png);
   height: 28vh;
   color: white;
   background-size: cover;
 }
 
 .main-pic2 {
-  background: linear-gradient( 360deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.115) 100% ), url(/images/2.jpg); 
+  background: linear-gradient(360deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.115) 100%), url(/images/2.jpg);
   height: 28vh;
   color: white;
   background-size: cover;
 }
 
 .main-pic3 {
-  background: linear-gradient( 360deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.115) 100% ), url(/images/3.jpeg); 
+  background: linear-gradient(360deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.115) 100%), url(/images/3.jpeg);
   height: 28vh;
   color: white;
   background-size: cover;
@@ -511,7 +509,7 @@ main {
 }
 
 .funding-section-article-card-body {
-  background: rgba(255,68,34,.08);
+  background: rgba(255, 68, 34, 0.08);
   padding: 10.6px 16px 10.6px 84px;
 }
 
@@ -622,7 +620,6 @@ main {
 .first-article-column-section {
   background-color: #fff4f2;
   margin-top: 2px;
-  
 }
 
 .first-article-column-section-p {
@@ -681,14 +678,14 @@ main {
 }
 
 .footer-section-1 {
-  background-color: rgb(19,19,19);
+  background-color: rgb(19, 19, 19);
 }
 
 .footer-links {
   padding-top: 30px;
 }
 
-.footer-links ul{
+.footer-links ul {
   list-style: none;
   font-size: 13px;
   font-weight: 500;
@@ -732,7 +729,7 @@ main {
   .main-pic2-h2 {
     padding: 160px 0 0 3%;
   }
-  
+
   .main-pic3-h2 {
     padding: 145px 0 0 3%;
   }
@@ -757,7 +754,7 @@ main {
     padding-top: 32px;
   }
 
-  .second-nav-mobile p{
+  .second-nav-mobile p {
     width: 70%;
   }
 
@@ -774,7 +771,8 @@ main {
     height: 495px;
   }
 
-  .main-pic2, .main-pic3 {
+  .main-pic2,
+  .main-pic3 {
     height: 244px;
   }
 
@@ -799,8 +797,8 @@ main {
   .dgrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
-    grid-row-gap: 14%; 
-    grid-column-gap: 2%; 
+    grid-row-gap: 14%;
+    grid-column-gap: 2%;
   }
 
   .article-flex-column {
@@ -816,7 +814,7 @@ main {
     width: 220px;
     height: 100px;
   }
-  
+
   .latest-news-aritcle-row img {
     width: 100%;
   }
@@ -829,7 +827,7 @@ main {
   .dgrid2 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-row-gap: 1%; 
+    grid-row-gap: 1%;
     grid-column-gap: 2%;
   }
 
@@ -840,16 +838,16 @@ main {
   .width-100-ipad {
     width: 100%;
   }
-  
+
   .last-section {
     margin-top: 200px;
     margin-bottom: 200px;
   }
 
-  .social-icons  {
+  .social-icons {
     margin: 0 13px;
   }
-  
+
   .footer-section-1-div1 {
     width: 400px;
   }
@@ -908,7 +906,7 @@ main {
     height: 400px;
     width: 64%;
     position: relative;
-    background: linear-gradient( 173deg, rgba(240, 63, 63, 63) 18%, rgba(165, 7, 227, 0.4) 51%, rgba(0, 0, 0, 0.8) 76% ), url(/images/1.png);
+    background: linear-gradient(173deg, rgba(240, 63, 63, 63) 18%, rgba(165, 7, 227, 0.4) 51%, rgba(0, 0, 0, 0.8) 76%), url(/images/1.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -946,7 +944,7 @@ main {
   .dgrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    grid-row-gap: 4%; 
+    grid-row-gap: 4%;
     grid-column-gap: 2%;
   }
 
@@ -978,7 +976,7 @@ main {
     height: 670px;
     margin: 21px auto;
   }
-  
+
   .width-100-large-screen {
     width: 100%;
     height: 250px;
@@ -1049,7 +1047,7 @@ main {
   .dgrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-row-gap: 4%; 
+    grid-row-gap: 4%;
     grid-column-gap: 2%;
   }
 

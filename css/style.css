@@ -340,6 +340,10 @@ header ul,
   height: 48px;
 }
 
+.nav-buttons-xxl {
+  border-left: 1px solid #ccc;
+}
+
 .small-logo img {
   display: block;
   width: 62%;

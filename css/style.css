@@ -905,7 +905,7 @@ main {
   }
 
   .main-pic {
-    height: 350px;
+    height: 400px;
     width: 64%;
     position: relative;
     background: linear-gradient( 173deg, rgba(240, 63, 63, 63) 18%, rgba(165, 7, 227, 0.4) 51%, rgba(0, 0, 0, 0.8) 76% ), url(/images/1.png);
@@ -914,7 +914,7 @@ main {
   }
 
   .main-pic-h4 {
-    margin-top: 220px;
+    margin-top: 300px;
   }
 
   .main-pic img {
@@ -935,12 +935,12 @@ main {
 
   .main-pic2 {
     width: 100%;
-    height: calc(175px - 2.5px);
+    height: calc(200px - 2.5px);
   }
 
   .main-pic3 {
     width: 100%;
-    height: calc(175px - 2.5px);
+    height: calc(200px - 2.5px);
   }
 
   .dgrid {

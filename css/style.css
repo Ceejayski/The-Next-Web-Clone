@@ -18,6 +18,10 @@
 * License: none (public domain)
 */
 
+@font-face { font-family: "Shentox"; src: url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.eot"); src: url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.woff") format("woff"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.svg#Shentox") format("svg"); }
+
+@font-face { font-family: "ARS Maquette Web One"; src: url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot"); src: url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff") format("woff"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.svg#ARS Maquette Web One") format("svg"); }
+
 html,
 body,
 div,
@@ -124,7 +128,7 @@ section {
 
 body {
   line-height: 1.25;
-  font-family: Helvetica, sans-serif;
+  font-family: "ARS Maquette Web One", Helvetica, sans-serif;
   background-color: #fff;
 }
 
@@ -231,6 +235,10 @@ header {
   color: rgb(177, 174, 174);
 }
 
+.font-big {
+  font-size: 40px;
+}
+
 .dflex-column {
   display: flex;
   flex-direction: column;
@@ -253,24 +261,52 @@ header {
   text-decoration: line-through;
 }
 
+.font-1 {
+  font-family: "Shentox", sans-serif;
+}
+
 /* header */
 
-header ul {
+header ul,
+.fixed-nav ul {
   list-style: none;
+}
+
+.fixed-nav img {
+  width: 125px;
 }
 
 .navbar-xl {
   display: none;
 }
 
+.first-nav-xxl {
+  display: none;
+}
+
 .navbar-xl-top {
   background-color: #131313;
-  color: #fff;
+  color: #afafaf;
   height: 32px;
 }
 
 .navbar-xl-bottom {
   height: 48px;
+  background-color: #fff;
+}
+
+.navbar-xl-bottom button {
+  background-color: #0cc;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  height: 28px;
+  width: 92px;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 12px 12px 0;
 }
 
 .navlist-list1 {
@@ -278,14 +314,19 @@ header ul {
 }
 
 .navbar-xl-top li {
-  margin-right: 12px;
+  margin-right: 10px;
   font-size: 13px;
 }
 
-.navlist2  li {
+.navlist2 li {
   font-size: 14px;
   padding-right: 20px;
   color: #afafaf;
+}
+
+.date-time {
+  font-size: 25px;
+  line-height: 52px;
 }
 
 .small-logo {
@@ -327,7 +368,7 @@ header ul {
 
 .second-nav-mobile p {
   height: 25%;
-  width: 380px;
+  width: 360px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -335,7 +376,15 @@ header ul {
   padding-left: 5px;
 }
 
+.xxl {
+  display: none;
+}
+
 /** main **/
+
+.fixed-nav {
+  display: none;
+}
 
 main {
   padding-top: 98px;
@@ -699,6 +748,10 @@ main {
     padding-top: 32px;
   }
 
+  .second-nav-mobile p{
+    width: 70%;
+  }
+
   .article-cards-small-ipad {
     display: flex;
     flex-direction: column;
@@ -707,7 +760,7 @@ main {
   .article-card-ipad-flex {
     display: flex;
   }
-  
+
   .main-pic {
     height: 495px;
   }
@@ -790,5 +843,45 @@ main {
   
   .footer-section-1-div1 {
     width: 400px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar-xl-top {
+    width: 100%;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .second-nav-mobile {
+    height: 30px;
+  }
+
+  .second-nav-mobile p {
+    height: auto;
+    width: 100%;
+    margin: 0 0 0 10px;
+    padding-top: 7px;
+  }
+
+  .fixed-nav {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+
+  main {
+    padding-top: 0;
+  }
+
+  .xxl {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
   }
 }

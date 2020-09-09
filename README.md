@@ -5,8 +5,8 @@ Project 6 of 50 Microverse
 
 This webpage is resposive to all the iPhone(5, 6, 7, 8 and X) iPad & iPad Pro devices
 
-# -Design-Teardown
-Smashing-Magazine heatmap clone: Project 6 of 40. Microverse. 
+# -Building with Responsive Design
+Building with Responsive Design: Project 7 of 40. Microverse. 
 
 This project consists of building a heatmap of the Smashing magazine website. The aim of this project was to examine the design pattern of the website using html,css and css positioning technologies.
 
@@ -17,7 +17,7 @@ This project consists of building a heatmap of the Smashing magazine website. Th
 ## Project Requirements
 
 ### General
-- You can find the original project specification at [The Odin Project](https://www.theodinproject.com/courses/html-and-css/lessons/design-teardown).
+- You can find the original project specification at [The Odin Project]( https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design).
 
 ### Specific to Microverse
 

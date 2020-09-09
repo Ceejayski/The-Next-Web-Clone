@@ -3,6 +3,8 @@ Project 6 of 50 Microverse
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+This webpage is resposive to all the iPhone(5, 6, 7, 8 and X) iPad & iPad Pro devices
+
 # -Design-Teardown
 Smashing-Magazine heatmap clone: Project 6 of 40. Microverse. 
 

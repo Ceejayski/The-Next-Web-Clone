@@ -1037,7 +1037,7 @@ main {
   }
 }
 
-@media only screen and (min-width: 1023px) and (min-height: 1320px) and (max-height: 1366px) {
+@media only screen and (min-width: 1023px) and (min-height: 1301px) and (max-height: 1366px) {
   .main-pic {
     height: 495px;
   }

@@ -461,7 +461,7 @@ main {
 }
 
 .article-section-repeat {
-  width: 280px;
+  width: 90%;
   height: 609px;
   margin: 8px auto;
 }
@@ -553,7 +553,7 @@ main {
 
 .article-section-header-bckgimg {
   height: 210px;
-  width: 280px;
+  width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0.2) 101%), url('/images/4.jpg');
   background-size: cover;
   background-position: 50%;
@@ -561,7 +561,7 @@ main {
 
 .article-section-header-bckgimg2 {
   height: 210px;
-  width: 280px;
+  width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0.2) 101%), url('/images/17.jpg');
   background-size: cover;
   background-position: 50%;
@@ -569,7 +569,7 @@ main {
 
 .article-section-header-bckgimg3 {
   height: 210px;
-  width: 280px;
+  width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0.2) 101%), url('/images/19.jpg');
   background-size: cover;
   background-position: 50%;
@@ -577,7 +577,7 @@ main {
 
 .article-section-header-bckgimg4 {
   height: 210px;
-  width: 280px;
+  width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0.2) 101%), url('/images/21.png');
   background-size: cover;
   background-position: 50%;
@@ -585,7 +585,7 @@ main {
 
 .article-section-header-bckgimg5 {
   height: 210px;
-  width: 280px;
+  width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0.2) 101%), url('/images/23.png');
   background-size: cover;
   background-position: 50%;
@@ -593,7 +593,7 @@ main {
 
 .article-section-header-bckgimg6 {
   height: 210px;
-  width: 280px;
+  width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0.2) 101%), url('/images/4.jpg');
   background-size: cover;
   background-position: 50%;
@@ -649,7 +649,7 @@ main {
 }
 
 .repeat-list li::after {
-  width: 280px;
+  width: 100%;
   background-color: rgb(204, 204, 204);
   display: block;
   height: 1px;

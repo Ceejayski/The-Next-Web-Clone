@@ -914,8 +914,16 @@ main {
 
   .main-pic-text {
     position: absolute;
-    top: 200px;
+    top: 70%;
     left: 1%;
+  }
+
+  .main-pic-text2 {
+    padding-left: 3%;
+  }
+
+  .main-pic-text3 {
+    padding: 20px 0 0 3%;
   }
 
   .main-pic img {

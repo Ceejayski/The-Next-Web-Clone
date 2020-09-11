@@ -5,10 +5,10 @@ Project 6 of 50 Microverse
 
 This webpage is resposive to all the iPhone(5, 6, 7, 8 and X) iPad & iPad Pro devices
 
-# -Building with Responsive Design
+# Building with Responsive Design
 Building with Responsive Design: Project 6 of 40. Microverse. 
 
-This project consists of building a heatmap of the Smashing magazine website. The aim of this project was to examine the design pattern of the website using html,css and css positioning technologies.This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
+This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
 ![screenshot](./images/1screen.jpg)
 ![screenshot](./images/2screen.jpg)
